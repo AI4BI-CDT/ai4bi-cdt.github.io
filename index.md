@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Welcome to our GitHub Page
+
 # Course and Training
 - [Introduction to Python for Biomedical Innovation](https://hanane-issa.github.io/python-crash-course/intro.html)
 
