@@ -1,5 +1,15 @@
-title: UKRI AI Centre for Doctoral Training in Biomedical Innovation
-description:
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+title: Biomedical AI Research at the Univesity of Edinburgh
+author:
+  name: Prof. Ian Simpson
+  email: ian.simpson@ed.ac.uk
+
+description: >
+  Tools and Resources from our Centres for Doctoral Training
+
+header_pages:
+  - another-page.md
+
+plugins:
+  - jekyll-remote-theme

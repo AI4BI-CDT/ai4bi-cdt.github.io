@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
+gem "jekyll", "~> 4.3"
+gem "jekyll-remote-theme", "~> 0.4.3"
+gem "jekyll-seo-tag"
 source "https://rubygems.org"
-
-gemspec
