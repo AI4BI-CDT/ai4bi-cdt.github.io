@@ -13,3 +13,9 @@ header_pages:
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  bibliography: references.bib
