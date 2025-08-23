@@ -91,26 +91,26 @@ body {
   height: 100%;
 }
 
-.footer-row {
+.gallery-row {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
 /* Images side by side on desktop */
-.footer-row img {
+.gallery-row img {
   max-width: 30%;  /* each takes up about 1/3 of row */
   height: auto;    /* keep aspect ratio */
 }
 
 /* On small screens, stack them */
 @media (max-width: 768px) {
-  .footer-row {
+  .gallery-row {
     flex-direction: column; /* stack vertically */
     align-items: center;    /* center them */
   }
 
-  .footer-row img {
+  .gallery-row img {
     max-width: 90%;  /* take most of screen width */
   }
 }
