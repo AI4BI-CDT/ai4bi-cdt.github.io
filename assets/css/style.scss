@@ -90,3 +90,29 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;         /* allows wrapping */
+  justify-content: center; /* centers on desktop */
+  gap: 10px;               /* spacing between images */
+}
+
+.footer-row img {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 30%;           /* ~3 per row on desktop */
+}
+
+/* On smaller screens, stack them */
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column; /* stack instead of row */
+    align-items: center;    /* center the images */
+  }
+
+  .footer-row img {
+    flex: 1 1 100%;        /* take full width */
+    max-width: 90%;        /* optional: leave some margin on sides */
+  }
+}
