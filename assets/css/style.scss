@@ -93,26 +93,24 @@ body {
 
 .footer-row {
   display: flex;
-  flex-wrap: wrap;         /* allows wrapping */
-  justify-content: center; /* centers on desktop */
-  gap: 10px;               /* spacing between images */
+  gap: 10px;
+  justify-content: center;
 }
 
+/* Images side by side on desktop */
 .footer-row img {
-  max-width: 100%;
-  height: auto;
-  flex: 1 1 30%;           /* ~3 per row on desktop */
+  max-width: 30%;  /* each takes up about 1/3 of row */
+  height: auto;    /* keep aspect ratio */
 }
 
-/* On smaller screens, stack them */
+/* On small screens, stack them */
 @media (max-width: 768px) {
   .footer-row {
-    flex-direction: column; /* stack instead of row */
-    align-items: center;    /* center the images */
+    flex-direction: column; /* stack vertically */
+    align-items: center;    /* center them */
   }
 
   .footer-row img {
-    flex: 1 1 100%;        /* take full width */
-    max-width: 90%;        /* optional: leave some margin on sides */
+    max-width: 90%;  /* take most of screen width */
   }
 }
