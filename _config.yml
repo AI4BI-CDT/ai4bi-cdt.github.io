@@ -14,6 +14,7 @@ header_pages:
 plugins:
   - jekyll-remote-theme
   - jekyll-scholar
+  - jekyll-github-metadata
 
 scholar:
   style: apa
