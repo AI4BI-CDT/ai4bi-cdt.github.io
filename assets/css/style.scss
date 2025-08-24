@@ -116,5 +116,6 @@ body {
   .gallery-row img {
     width: 100%;        /* relative to screen width */
     max-width: 250px;  /* so they don’t stretch wider than text */
+    height: auto;
   }
 }
