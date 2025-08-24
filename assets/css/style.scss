@@ -95,22 +95,26 @@ body {
   display: flex;
   gap: 10px;
   justify-content: center;
+  flex-wrap: wrap;  /* lets them break onto new lines if needed */
 }
 
-/* Images side by side on desktop */
+/* Desktop: side by side */
 .gallery-row img {
-  max-width: 30%;  /* each takes up about 1/3 of row */
-  height: auto;    /* keep aspect ratio */
+  width: 30%;        /* about 1/3 of row */
+  max-width: 250px;  /* optional: cap max size */
+  height: auto;
+  display: block;
 }
 
-/* On small screens, stack them */
+/* Mobile: stack, but keep them centered and not too wide */
 @media (max-width: 768px) {
   .gallery-row {
-    flex-direction: column; /* stack vertically */
-    align-items: center;    /* center them */
+    flex-direction: column;
+    align-items: center; /* keeps them centered, not stretching */
   }
 
   .gallery-row img {
-    max-width: 90%;  /* take most of screen width */
+    width: 90%;        /* relative to screen width */
+    max-width: 350px;  /* so they don’t stretch wider than text */
   }
 }
