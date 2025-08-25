@@ -19,7 +19,7 @@ These pages contain links to various tools and resources created by the staff an
 
 - [GNN-Suite](https://github.com/AI4BI-CDT/gnn-suite) - GNN-Suit is a robust modular framework for constructing and benchmarking Graph Neural Network (GNN) architectures in computational biology. GNN-Suite standardises experimentation and reproducibility using the Nextflow workflow to evaluate GNN performance {% cite kamp2025gnnsuite %}
 - [MOG-Dx](https://github.com/AI4BI-CDT/MOGDx) - Multi-omic Graph Diagnosis (MOGDx) is a tool for the integration of omic data and classification of heterogeneous diseases. MOGDx exploits a Patient Similarity Network (PSN) framework to integrate omic data using Similarity Network Fusion (SNF) {% cite ryan2024mogdx %}
-- [PDBench](https://github.com/wells-wood-research/PDBench) - PDBench is a dataset and software package for evaluating fixed-backbone sequence design algorithms. The structures included in PDBench have been chosen to account for the diversity and quality of observed protein structures, giving a more holistic view of performance. (% cite castorina_2023_pdbench %)
+- [PDBench](https://github.com/wells-wood-research/PDBench) - PDBench is a dataset and software package for evaluating fixed-backbone sequence design algorithms. The structures included in PDBench have been chosen to account for the diversity and quality of observed protein structures, giving a more holistic view of performance {% cite castorina_2023_pdbench %}
 ## References
 
 {% bibliography --cited %}
