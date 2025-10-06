@@ -6,7 +6,7 @@ These pages contain links to various tools and resources created by the staff an
 
 ## Courses and Training
 
-- [Introduction to Python for Biomedical Innovation](https://hanane-issa.github.io/python-crash-course/intro.html). A student developed crash course in using Python for biomedical data analysis. This course is presented in modules including coding notebooks to allow you to develop practical skills.
+- [Introduction to Python for Biomedical Innovation](https://ai4bi-cdt.github.io/python-course/). A student developed crash course in using Python for biomedical data analysis. This course is presented in modules including coding notebooks to allow you to develop practical skills.
 - [An Introduction to Multi Modal Analysis Using Networks](https://biomedicalinformaticsgroup.github.io/networks_ismb24/intro.html). This workshop was run at the Intelligent Systems for Molecular Biology (ISMB) confrence in Montreal in July 2024. It is a Python based hands on tutorial introducing network methods including network similarity fusion (SNF) and the use of Graph Neural Networks (GNNs) to perofrm classification tasks on patient specific networks (PSNs).
 - [How to Create a Protein](https://github.com/DrLeucine/how_to_create_a_protein). A short course on proteins and protein design aimed at early career students.
 
