@@ -1,6 +1,7 @@
 remote_theme: pages-themes/cayman@v0.2.0
 
 title: Biomedical AI Research at the University of Edinburgh
+google_analytics: G-YWK9XB4KWK
 author:
   name: Prof. Ian Simpson
   email: ian.simpson@ed.ac.uk
