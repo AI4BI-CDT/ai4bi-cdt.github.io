@@ -1,22 +1,11 @@
-@article{falis2021,
-    title = "{C}o{PHE}: A Count-Preserving Hierarchical Evaluation Metric in Large-Scale Multi-Label Text Classification",
-    author = "Falis, Mat{\'u}{\v{s}}  and
-      Dong, Hang  and
-      Birch, Alexandra  and
-      Alex, Beatrice",
-    editor = "Moens, Marie-Francine  and
-      Huang, Xuanjing  and
-      Specia, Lucia  and
-      Yih, Scott Wen-tau",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2021",
-    address = "Online and Punta Cana, Dominican Republic",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.emnlp-main.69/",
-    doi = "10.18653/v1/2021.emnlp-main.69",
-    pages = "907--912",
-    abstract = "Large-Scale Multi-Label Text Classification (LMTC) includes tasks with hierarchical label spaces, such as automatic assignment of ICD-9 codes to discharge summaries. Performance of models in prior art is evaluated with standard precision, recall, and F1 measures without regard for the rich hierarchical structure. In this work we argue for hierarchical evaluation of the predictions of neural LMTC models. With the example of the ICD-9 ontology we describe a structural issue in the representation of the structured label space in prior art, and propose an alternative representation based on the depth of the ontology. We propose a set of metrics for hierarchical evaluation using the depth-based representation. We compare the evaluation scores from the proposed metrics with previously used metrics on prior art LMTC models for ICD-9 coding in MIMIC-III. We also propose further avenues of research involving the proposed ontological representation."
+@article{dutt2026chexgenbenchunifiedbenchmarkfidelity,
+      title={CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs}, 
+      author={Raman Dutt and Pedro Sanchez and Yongchen Yao and Steven McDonagh and Sotirios A. Tsaftaris and Timothy Hospedales},
+      year={2026},
+      eprint={2505.10496},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.10496}, 
 }
 @article{kamp2025gnnsuite,
   title   = {GNN-Suite: a Graph Neural Network Benchmarking Framework for Biomedical Informatics},
@@ -25,6 +14,69 @@
   year    = {2025},
   url     = {https://arxiv.org/abs/2505.10711},
   doi     = {10.48550/arXiv.2505.10711}
+}
+@article{PHILPS2025103697,
+title = {Uncertainty quantification for White Matter Hyperintensity segmentation detects silent failures and improves automated Fazekas quantification},
+journal = {Medical Image Analysis},
+volume = {105},
+pages = {103697},
+year = {2025},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2025.103697},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841525002440},
+author = {Ben Philps and Maria del C. {Valdés Hernández} and Chen Qin and Una Clancy and Eleni Sakka and Susana {Muñoz Maniega} and Mark E. Bastin and Angela C.C. Jochems and Joanna M. Wardlaw and Miguel O. Bernabeu},
+keywords = {Uncertainty quantification, White Matter Hyperintensities, Fazekas prediction, Machine learning, Brain MRI},
+abstract = {White Matter Hyperintensities (WMH) are key neuroradiological markers of small vessel disease present in brain MRI. Assessment of WMH is important in research and clinics. However, WMH are challenging to segment due to their high variability in shape, location, size, poorly defined borders, and similar intensity profile to other pathologies (e.g stroke lesions) and artefacts (e.g head motion). In this work, we assess the utility and semantic properties of the most effective techniques for uncertainty quantification (UQ) in segmentation for the WMH segmentation task across multiple test-time data distributions. We find UQ techniques reduce ‘silent failure’ by identifying in UQ maps small WMH clusters in the deep white matter that are unsegmented by the model. A combination of Stochastic Segmentation Networks with Deep Ensembles also yields the highest Dice and lowest Absolute Volume Difference % (AVD) score and can highlight areas where there is ambiguity between WMH and stroke lesions. We further demonstrate the downstream utility of UQ, proposing a novel method for classification of the clinical Fazekas score using spatial features extracted from voxelwise WMH probability and UQ maps. We show that incorporating WMH uncertainty information improves Fazekas classification performance and calibration. Our model with (UQ and spatial WMH features)/(spatial WMH features)/(WMH volume only) achieves a balanced accuracy score of 0.74/0.67/0.62, and root brier score (↓) of 0.65/0.72/0.74 in the Deep WMH and balanced accuracy of 0.74/0.73/0.71 and root brier score of 0.64/0.66/0.68 in the Periventricular region. We further demonstrate that stochastic UQ techniques with high sample diversity can improve the detection of poor quality segmentations.}
+}
+@article{10.1093/protein/gzaf003,
+    author = {Gasser, Hans-Christof and Oyarzún, Diego A and Alfaro, Javier Antonio and Rajan, Ajitha},
+    title = {Tuning ProteinMPNN to reduce protein visibility via MHC Class I through direct preference optimization},
+    journal = {Protein Engineering, Design and Selection},
+    volume = {38},
+    pages = {gzaf003},
+    year = {2025},
+    month = {03},
+    abstract = {ProteinMPNN is widely used in protein design workflows due to its ability to identify amino acid sequences that fold into specific 3D protein structures. In our work, we adjust ProteinMPNN to design proteins for a given 3D protein structure with reduced immune-visibility to cytotoxic T lymphocytes that recognize proteins via the MHC-I pathway. To achieve this, we developed a novel framework that integrates direct preference optimization (DPO)—a tuning method originally designed for large language models—with MHC-I peptide presentation predictions. This approach fosters the generation of designs with fewer MHC-I epitopes while preserving the protein’s original structure. Our results demonstrate that DPO effectively reduces MHC-I visibility without compromising the structural integrity of the proteins.},
+    issn = {1741-0126},
+    doi = {10.1093/protein/gzaf003},
+    url = {https://doi.org/10.1093/protein/gzaf003},
+    eprint = {https://academic.oup.com/peds/article-pdf/doi/10.1093/protein/gzaf003/63630940/cape_mpnn_appendix_gzaf003.pdf},
+}
+@article{Walker_2025_CVPR,
+    author    = {Walker, Thomas and Esposito, Salvatore and Rebain, Daniel and Vaxman, Amir and Onken, Arno and Li, Changjian and Mac Aodha, Oisin},
+    title     = {CrossSDF: 3D Reconstruction of Thin Structures From Cross-Sections},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {30928-30937}
+}
+@article{dutt2025devilpromptsdeidentificationtraces,
+      title={The Devil is in the Prompts: De-Identification Traces Enhance Memorization Risks in Synthetic Chest X-Ray Generation}, 
+      author={Raman Dutt},
+      year={2025},
+      eprint={2502.07516},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2502.07516}, 
+}
+@article{ICLR2025_1ad84bf5,
+ author = {Wang, Ke and Cohen, Shay B},
+ booktitle = {International Conference on Representation Learning},
+ editor = {Y. Yue and A. Garg and N. Peng and F. Sha and R. Yu},
+ pages = {9800--9821},
+ title = {DEPfold: RNA Secondary Structure Prediction as Dependency Parsing.},
+ url = {https://proceedings.iclr.cc/paper_files/paper/2025/file/1ad84bf5a6711cb9541c8976617cc00f-Paper-Conference.pdf},
+ volume = {2025},
+ year = {2025}
+}
+@article{zong2025vliclbenchdevildetails,
+      title={VL-ICL Bench: The Devil in the Details of Multimodal In-Context Learning}, 
+      author={Yongshuo Zong and Ondrej Bohdal and Timothy Hospedales},
+      year={2025},
+      eprint={2403.13164},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2403.13164}, 
 }
 @article{ryan2024mogdx,
     author = {Ryan, Barry and Marioni, Riccardo E and Simpson, T Ian},
@@ -52,4 +104,24 @@
     url = {https://doi.org/10.1093/bioinformatics/btad027},
     note = {btad027},
     eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad027/48691588/btad027.pdf},
+}
+@article{falis2021,
+    title = "{C}o{PHE}: A Count-Preserving Hierarchical Evaluation Metric in Large-Scale Multi-Label Text Classification",
+    author = "Falis, Mat{\'u}{\v{s}}  and
+      Dong, Hang  and
+      Birch, Alexandra  and
+      Alex, Beatrice",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.69/",
+    doi = "10.18653/v1/2021.emnlp-main.69",
+    pages = "907--912",
+    abstract = "Large-Scale Multi-Label Text Classification (LMTC) includes tasks with hierarchical label spaces, such as automatic assignment of ICD-9 codes to discharge summaries. Performance of models in prior art is evaluated with standard precision, recall, and F1 measures without regard for the rich hierarchical structure. In this work we argue for hierarchical evaluation of the predictions of neural LMTC models. With the example of the ICD-9 ontology we describe a structural issue in the representation of the structured label space in prior art, and propose an alternative representation based on the depth of the ontology. We propose a set of metrics for hierarchical evaluation using the depth-based representation. We compare the evaluation scores from the proposed metrics with previously used metrics on prior art LMTC models for ICD-9 coding in MIMIC-III. We also propose further avenues of research involving the proposed ontological representation."
 }
