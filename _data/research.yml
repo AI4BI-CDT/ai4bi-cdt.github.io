@@ -1,0 +1,951 @@
+- id: risk-averse-optimization-of-genetic-circuits
+  title: Risk-averse optimization of genetic circuits
+  url: https://github.com/MichalKobiela/uncertainty-circ-opt
+  link_label: Code
+  year: 2026
+  theme: molecules
+  secondary_themes: []
+  summary: Design genetic circuits that remain robust when model parameters are uncertain.
+  description: A risk-aware computational framework for synthetic biology that combines Bayesian inference
+    and Thompson sampling to design robust genetic circuits despite model uncertainty.
+  citation: Kobiela2026
+  data_types:
+  - Genetic circuits
+  tasks:
+  - Circuit design
+  methods:
+  - Bayesian inference
+  concerns:
+  - Uncertainty
+  resource_types:
+  - Research code
+- id: transforms-for-brownian-dynamics
+  title: Transforms-For-Brownian-Dynamics
+  url: https://github.com/dominicp6/Transforms-For-Brownian-Dynamics
+  link_label: Code
+  year: 2025
+  theme: foundations
+  secondary_themes: []
+  summary: Make Brownian dynamics simulations more efficient through coordinate and time transforms.
+  description: A framework for transforming variable-diffusion Brownian dynamics into constant-diffusion
+    processes via coordinate and time rescaling, enabling more stable and accurate numerical integration.
+    The method supports invertible mappings, improves convergence and efficiency, and extends to multivariate
+    and biophysical diffusion systems.
+  citation: Phillips18042025
+  data_types:
+  - Simulation data
+  tasks:
+  - Simulation
+  methods:
+  - Numerical methods
+  concerns: []
+  resource_types:
+  - Research code
+- id: antidepressant-mwas
+  title: Antidepressant MWAS
+  url: https://github.com/Elladavyson/Antidepressant_MWAS
+  link_label: Code
+  year: 2025
+  theme: omics
+  secondary_themes:
+  - mental-health
+  summary: Study associations between antidepressant exposure and DNA methylation across cohorts.
+  description: A large-scale methylome-wide analysis linking antidepressant exposure to whole-blood DNA
+    methylation, integrating self-report and prescription data with validation across external cohorts.
+    The pipeline identifies reproducible CpG associations and builds predictive methylation scores for
+    cross-dataset generalization.
+  citation: Davyson2025
+  data_types:
+  - DNA methylation
+  tasks:
+  - Association analysis
+  methods:
+  - Statistical modelling
+  concerns: []
+  resource_types:
+  - Research code
+- id: chexgenbench
+  title: CheXGenBench
+  url: https://github.com/Raman1121/CheXGenBench
+  link_label: Code
+  year: 2026
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Evaluate the fidelity, privacy and usefulness of synthetic chest X-rays.
+  description: CheXGenBench is a standardized evaluation framework for synthetic chest X-ray generation,
+    assessing fidelity, privacy, and clinical utility across multiple models using a unified multi-metric
+    protocol. It also releases the SynthCheX-75K dataset and provides a reproducible benchmark for comparing
+    and developing medical generative models.
+  citation: dutt2026chexgenbenchunifiedbenchmarkfidelity
+  data_types:
+  - Chest X-ray
+  tasks:
+  - Benchmarking
+  methods:
+  - Generative AI
+  concerns:
+  - Privacy
+  resource_types:
+  - Research code
+  - Benchmark
+  - Dataset
+- id: uncertainty-quantification-for-wmh-segmentation
+  title: Uncertainty quantification for WMH segmentation
+  url: https://github.com/BenjaminPhi5/wmhuq
+  link_label: Code
+  year: 2025
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Identify uncertain white matter lesion segmentations and improve automated severity scoring.
+  description: A framework for evaluating and leveraging uncertainty quantification in WMH segmentation,
+    combining stochastic segmentation networks and deep ensembles to detect failures and ambiguity. It
+    further integrates uncertainty features into downstream Fazekas scoring, improving classification
+    accuracy and calibration.
+  citation: PHILPS2025103697
+  data_types:
+  - MRI
+  tasks:
+  - Segmentation
+  methods:
+  - Deep ensembles
+  concerns:
+  - Uncertainty
+  resource_types:
+  - Research code
+- id: gnn-suite
+  title: GNN-Suite
+  url: https://github.com/AI4BI-CDT/gnn-suite
+  link_label: Code
+  year: 2025
+  theme: foundations
+  secondary_themes: []
+  summary: Construct and compare graph neural network architectures for computational biology.
+  description: GNN-Suit is a robust modular framework for constructing and benchmarking Graph Neural Network
+    (GNN) architectures in computational biology. GNN-Suite standardises experimentation and reproducibility
+    using the Nextflow workflow to evaluate GNN performance.
+  citation: kamp2025gnnsuite
+  data_types:
+  - Graphs
+  tasks:
+  - Benchmarking
+  methods:
+  - Graph neural networks
+  concerns: []
+  resource_types:
+  - Research code
+  - Benchmark
+- id: controlled-amplitude-of-present-epitopes-cape
+  title: Controlled Amplitude of Present Epitopes (CAPE)
+  url: https://github.com/hcgasser/CAPE_MPNN
+  link_label: Code
+  year: 2025
+  theme: molecules
+  secondary_themes: []
+  summary: Design proteins with reduced predicted immune visibility while preserving their structure.
+  description: an extension of ProteinMPNN that integrates direct preference optimization (DPO) with MHC-I
+    presentation predictions to design proteins with reduced CTL immunogenicity. The framework preserves
+    structural fidelity while systematically minimizing predicted immune-visible epitopes.
+  citation: 10.1093/protein/gzaf003
+  data_types:
+  - Protein sequences
+  tasks:
+  - Protein design
+  methods:
+  - Language models
+  concerns: []
+  resource_types:
+  - Research code
+- id: crosssdf
+  title: CrossSDF
+  url: https://github.com/iamsalvatore/cross_sdf
+  link_label: Code
+  year: 2025
+  theme: imaging
+  secondary_themes:
+  - foundations
+  summary: Reconstruct thin 3D structures from cross-sectional observations.
+  description: a novel method for 3D reconstruction of thin structures from cross-sectional data. It demonstrates
+    a significant improvement over existing methods, effectively reconstructing thin structures and producing
+    accurate 3D models without the interpolation artifacts or over-smoothing of prior approaches.
+  citation: Walker_2025_CVPR
+  data_types:
+  - Cross-sectional images
+  tasks:
+  - 3D reconstruction
+  methods:
+  - Implicit neural representations
+  concerns: []
+  resource_types:
+  - Research code
+- id: diffusion-memorisation
+  title: Diffusion memorisation
+  url: https://github.com/Raman1121/diffusion_memorization
+  link_label: Code
+  year: 2025
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Investigate and reduce memorisation risks in synthetic chest X-ray generation.
+  description: a systematic framework for analysing memorization in medical text-to-image diffusion models,
+    identifying high-risk prompts and tokens within MIMIC-CXR. It provides evaluation protocols and mitigation
+    strategies to reduce privacy leakage and improve reliability in synthetic chest X-ray generation.
+  citation: dutt2025devilpromptsdeidentificationtraces
+  data_types:
+  - Chest X-ray
+  - Clinical text
+  tasks:
+  - Generation
+  methods:
+  - Diffusion models
+  concerns:
+  - Privacy
+  resource_types:
+  - Research code
+- id: depfold
+  title: DEPfold
+  url: https://github.com/Vicky-0256/DEPfold
+  link_label: Code
+  year: 2025
+  theme: molecules
+  secondary_themes: []
+  summary: Predict RNA secondary structures, including pseudoknots, using dependency parsing.
+  description: a novel approach to RNA secondary structure prediction that leverages techniques from natural
+    language processing, specifically dependency parsing with biaffine attention. The model can effectively
+    predict both canonical base pairs and pseudoknots, achieving competitive performance on standard RNA
+    structure benchmarks.
+  citation: ICLR2025_1ad84bf5
+  data_types:
+  - RNA sequences
+  tasks:
+  - Structure prediction
+  methods:
+  - Dependency parsing
+  concerns: []
+  resource_types:
+  - Research code
+- id: vl-icl-bench
+  title: VL-ICL Bench
+  url: https://github.com/ys-zong/VL-ICL
+  link_label: Code
+  year: 2025
+  theme: foundations
+  secondary_themes: []
+  summary: Evaluate multimodal in-context learning across perception and reasoning tasks.
+  description: a comprehensive benchmark suite  for multimodal in-context learning, encompassing a broad
+    spectrum of tasks that involve both images and text as inputs and outputs, and different types of
+    challenges, from perception to reasoning and long context length.
+  citation: zong2025vliclbenchdevildetails
+  data_types:
+  - Images
+  - Text
+  tasks:
+  - Benchmarking
+  methods:
+  - Vision-language models
+  concerns: []
+  resource_types:
+  - Research code
+  - Benchmark
+- id: mog-dx
+  title: MOG-Dx
+  url: https://github.com/AI4BI-CDT/MOGDx
+  link_label: Code
+  year: 2024
+  theme: omics
+  secondary_themes: []
+  summary: Integrate multiple omic datasets for disease classification using patient similarity networks.
+  description: Multi-omic Graph Diagnosis (MOGDx) is a tool for the integration of omic data and classification
+    of heterogeneous diseases. MOGDx exploits a Patient Similarity Network (PSN) framework to integrate
+    omic data using Similarity Network Fusion (SNF).
+  citation: ryan2024mogdx
+  data_types:
+  - Multi-omics
+  - Graphs
+  tasks:
+  - Data integration
+  methods:
+  - Graph neural networks
+  concerns: []
+  resource_types:
+  - Research code
+- id: balm
+  title: BALM
+  url: https://github.com/meyresearch/BALM
+  link_label: Code
+  year: 2025
+  theme: molecules
+  secondary_themes: []
+  summary: Predict protein–ligand binding affinity using pretrained molecular language models.
+  description: a deep learning framework that leverages pretrained protein and ligand language models
+    to efficiently predict binding affinity, overcoming scalability and generalization limits of existing
+    methods. Paired with improved evaluation strategies, it demonstrates strong performance on unseen
+    targets and practical utility for early-stage drug discovery.
+  citation: doi:10.1021/acs.jcim.5c02063
+  data_types:
+  - Protein sequences
+  - Ligand representations
+  tasks:
+  - Binding affinity prediction
+  methods:
+  - Language models
+  concerns: []
+  resource_types:
+  - Research code
+- id: bayesian-hrv
+  title: Bayesian HRV
+  url: https://github.com/april-tools/bayesian-hrv
+  link_label: Code
+  year: 2024
+  theme: mental-health
+  secondary_themes: []
+  summary: Model changes in heart rate variability during recovery from bipolar disorder episodes.
+  description: A Bayesian model of heart rate variability in bipolar disorder that reveals a probable
+    increase in HRV during recovery from acute episodes, suggesting its potential as a biomarker of symptom
+    resolution. The approach improves tracking of HRV dynamics over time, though effect size estimates
+    remain uncertain due to limited sample size.
+  citation: Corponi2024
+  data_types:
+  - Wearable signals
+  tasks:
+  - Biomarker analysis
+  methods:
+  - Bayesian inference
+  concerns: []
+  resource_types:
+  - Research code
+- id: instanseg
+  title: InstanSeg
+  url: https://github.com/instanseg/instanseg
+  link_label: Code
+  year: 2024
+  theme: imaging
+  secondary_themes: []
+  summary: Segment cells and nuclei in microscopy images with a portable analysis pipeline.
+  description: an efficient, embedding-based instance segmentation pipeline that improves accuracy and
+    reduces processing time for cell and nucleus segmentation in microscopy images. Designed for portability
+    and usability, it supports GPU acceleration, TorchScript deployment, and includes open-source Python
+    and QuPath implementations.
+  citation: goldsborough2024instansegembeddingbasedinstancesegmentation
+  data_types:
+  - Microscopy
+  tasks:
+  - Cell segmentation
+  methods:
+  - Deep learning
+  concerns: []
+  resource_types:
+  - Software package
+- id: probage
+  title: ProbAge
+  url: https://github.com/zuberek/probage
+  link_label: Code
+  year: 2024
+  theme: omics
+  secondary_themes: []
+  summary: Estimate epigenetic age acceleration using a probabilistic model of cellular dynamics.
+  description: a Python package implementing the probabilistic model for epigenetic age acceleration analysis.
+    This tool provides a mechanistic approach to understanding methylation dynamics and biological aging,
+    addressing limitations in traditional epigenetic clock methods.
+  citation: Dabrowski2024
+  data_types:
+  - DNA methylation
+  tasks:
+  - Age estimation
+  methods:
+  - Probabilistic modelling
+  concerns: []
+  resource_types:
+  - Software package
+- id: cartimorph-toolbox-cmt
+  title: CartiMorph Toolbox (CMT)
+  url: https://github.com/YongchengYAO/CMT-AMAI24paper
+  link_label: Code
+  year: 2024
+  theme: imaging
+  secondary_themes: []
+  summary: Quantify knee cartilage shape and lesions from medical images.
+  description: a deep learning-based pipeline for automated knee cartilage analysis, integrating a novel
+    registration network to quantify cartilage shape and lesions. It delivers competitive performance
+    with a user-friendly framework for imaging biomarker extraction in osteoarthritis.
+  citation: yao2024quantifyingkneecartilageshape
+  data_types:
+  - MRI
+  tasks:
+  - Image registration
+  - Segmentation
+  methods:
+  - Deep learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: mediqa-corr-2024
+  title: MEDIQA-CORR 2024
+  url: https://github.com/aryopg/mediqa
+  link_label: Code
+  year: 2024
+  theme: clinical
+  secondary_themes:
+  - responsible
+  summary: Detect and correct medical errors in clinical notes using language models.
+  description: This study evaluates GPT-3.5 and GPT-4 for detecting and correcting medical errors in clinical
+    notes, showing that combining prompting strategies with error-span hints from a smaller model significantly
+    improves performance. The approach achieved a top-10 ranking in MEDIQA-CORR 2024 and highlights key
+    factors affecting LLM reliability in clinical settings.
+  citation: gema2024edinburghclinicalnlpmediqacorr
+  data_types:
+  - Clinical text
+  tasks:
+  - Error correction
+  methods:
+  - Language models
+  concerns:
+  - Reliability
+  resource_types:
+  - Research code
+- id: self-supervised-learning-for-personal-sensing-in-mood-disorders
+  title: Self-supervised learning for personal sensing in mood disorders
+  url: https://github.com/april-tools/e4selflearning
+  link_label: Code
+  year: 2024
+  theme: mental-health
+  secondary_themes: []
+  summary: Use unlabelled wearable data to improve detection of acute mood disorder episodes.
+  description: a self-supervised learning framework for wearable data that overcomes limited annotations
+    to improve detection of acute mood disorder episodes. Using a new dataset and transformer model (E4mer),
+    the approach outperforms supervised methods and highlights the importance of pretraining tasks and
+    unlabeled data scale.
+  citation: info:doi/10.2196/55094
+  data_types:
+  - Wearable signals
+  tasks:
+  - Classification
+  methods:
+  - Self-supervised learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: icd-coding-using-chatgpt
+  title: ICD Coding using ChatGPT
+  url: https://github.com/EdinburghClinicalNLP/chatgpt_icd_coding
+  link_label: Code
+  year: 2024
+  theme: clinical
+  secondary_themes: []
+  summary: Investigate generating discharge summaries and assigning ICD-10 codes with ChatGPT.
+  description: Investigation into GPT-3.5  capabilities in generating and coding medical documents with
+    International Classification of Diseases (ICD)-10 codes for data augmentation on low-resource labels.
+  citation: 10.1093/jamia/ocae132
+  data_types:
+  - Clinical text
+  tasks:
+  - Clinical coding
+  - Data augmentation
+  methods:
+  - Language models
+  concerns: []
+  resource_types:
+  - Research code
+- id: fool-your-v-llms
+  title: Fool your (V)LLMs
+  url: https://github.com/ys-zong/FoolyourVLLMs
+  link_label: Code
+  year: 2024
+  theme: responsible
+  secondary_themes:
+  - foundations
+  summary: Test how answer ordering affects language and vision-language model responses.
+  description: This code shows empirically that popular large language and vision-language models are
+    specifically vulnerable to adversarial permutation in answer sets for multiple-choice prompting. These
+    vulnerabilities persist across various model sizes, and exist in very recent language and vision-language
+    models.
+  citation: zong2024foolvisionandlanguage
+  data_types:
+  - Images
+  - Text
+  tasks:
+  - Evaluation
+  methods:
+  - Vision-language models
+  concerns:
+  - Robustness
+  resource_types:
+  - Research code
+- id: vlguard
+  title: VLGuard
+  url: https://github.com/ys-zong/VLGuard
+  link_label: Code
+  year: 2024
+  theme: responsible
+  secondary_themes:
+  - foundations
+  summary: Support safety fine-tuning and testing of vision-language models.
+  description: A vision-language safe instruction-following dataset that effectively safety aligns VLLMs
+    when integrated this dataset into standard vision-language fine-tuning or utilizing it for post-hoc
+    fine-tuning. The versatility of this safety fine-tuning dataset makes it a valuable resource for safety-testing
+    existing VLLMs, training new models or safeguarding pre-trained VLLMs.
+  citation: zong2024safetyfinetuningalmostcost
+  data_types:
+  - Images
+  - Text
+  tasks:
+  - Safety alignment
+  methods:
+  - Vision-language models
+  concerns:
+  - Safety
+  resource_types:
+  - Research code
+  - Dataset
+- id: stochastic-uncertainty-quantification-for-wmh-segmentation
+  title: Stochastic Uncertainty Quantification for WMH segmentation
+  url: https://github.com/BenjaminPhi5/UQforWMH-vs-InterAnalystVariability
+  link_label: Code
+  year: 2024
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Evaluate whether segmentation uncertainty captures differences between human annotators.
+  description: A framework for evaluating stochastic uncertainty quantification methods in WMH segmentation,
+    introducing new metrics (UIRO, JUEO) to analyze inter-analyst variability across datasets. It reveals
+    that differences in annotation policy dominate model uncertainty and proposes task and loss modifications
+    to better align model predictions with diverse labeling strategies.
+  citation: 10.1007/978-3-031-66955-2_3
+  data_types:
+  - MRI
+  tasks:
+  - Segmentation
+  methods:
+  - Stochastic modelling
+  concerns:
+  - Uncertainty
+  resource_types:
+  - Research code
+- id: cape-xvae
+  title: CAPE-XVAE
+  url: https://github.com/hcgasser/CAPE
+  link_label: Code
+  year: 2024
+  theme: molecules
+  secondary_themes: []
+  summary: Guide protein design towards desired levels of immune visibility.
+  description: a machine learning framework combining protein language models and reinforcement learning
+    to modulate CTL immunogenicity while preserving function.
+  citation: GASSER2024100035
+  data_types:
+  - Protein sequences
+  tasks:
+  - Protein design
+  methods:
+  - Language models
+  - Reinforcement learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: mood-disorder-symptoms-monitoring-from-multivariate-sensory-data
+  title: Mood disorder symptoms monitoring from multivariate sensory data
+  url: https://github.com/april-tools/wear-your-scales
+  link_label: Code
+  year: 2024
+  theme: mental-health
+  secondary_themes: []
+  summary: Estimate mood disorder symptom profiles from wearable sensor measurements.
+  description: A deep learning pipeline for wearable-based monitoring of mood disorders that predicts
+    full HDRS and YMRS symptom profiles rather than single labels. It incorporates multi-task learning
+    and subject-invariant representations, achieving clinically meaningful agreement with expert assessments
+    while addressing key ML challenges.
+  citation: Corponi2024
+  data_types:
+  - Wearable signals
+  tasks:
+  - Symptom monitoring
+  methods:
+  - Multi-task learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: geogen
+  title: GeoGen
+  url: https://microsoft.github.io/GeoGen
+  link_label: Project
+  year: 2024
+  theme: foundations
+  secondary_themes:
+  - imaging
+  summary: Generate 3D geometry from single-view data using signed distance functions.
+  description: an end-to-end generative framework that replaces volumetric density with a learnable signed
+    distance function to produce higher-quality, mesh-consistent 3D geometry from single-view data. By
+    enforcing SDF–depth consistency and using adversarial training, it overcomes NeRF limitations and
+    improves geometric fidelity.
+  citation: Esposito_2024_CVPR
+  data_types:
+  - Images
+  tasks:
+  - 3D generation
+  methods:
+  - Generative AI
+  concerns: []
+  resource_types:
+  - Research code
+- id: active-learning-protocols-for-ligand-binding-affinity-prediction
+  title: Active Learning Protocols for Ligand Binding Affinity Prediction
+  url: https://github.com/meyresearch/ActiveLearning_BindingAffinity
+  link_label: Code
+  year: 2024
+  theme: molecules
+  secondary_themes: []
+  summary: Compare active learning strategies for identifying promising molecular binders.
+  description: A systematic evaluation of active learning pipelines for drug discovery, comparing models,
+    sampling strategies, and batch sizes across multiple targets. It provides practical guidelines for
+    optimizing binder identification, highlighting advantages of Gaussian processes in low-data regimes
+    and the impact of batch size and noise on performance.
+  citation: Gorantla2024
+  data_types:
+  - Protein sequences
+  - Ligand representations
+  tasks:
+  - Binding affinity prediction
+  methods:
+  - Active learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: fairtune
+  title: FairTune
+  url: https://github.com/Raman1121/FairTune
+  link_label: Code
+  year: 2024
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Select fine-tuning configurations to improve fairness in medical image analysis.
+  description: a bi-level optimisation framework that improves group fairness in medical imaging by selecting
+    parameter-efficient fine-tuning (PEFT) configurations based on validation fairness. It addresses the
+    fairness generalisation gap by balancing model capacity and generalisation, leading to more equitable
+    performance across subgroups.
+  citation: dutt2024fairtuneoptimizingparameterefficient
+  data_types:
+  - Medical images
+  tasks:
+  - Fine-tuning
+  methods:
+  - Parameter-efficient fine-tuning
+  concerns:
+  - Fairness
+  resource_types:
+  - Research code
+- id: decoding-deep-learning-methods-for-binding-affinity-prediction
+  title: Decoding Deep Learning Methods for Binding Affinity Prediction
+  url: https://github.com/meyresearch/DL_protein_ligand_affinity
+  link_label: Code
+  year: 2024
+  theme: molecules
+  secondary_themes: []
+  summary: Examine how molecular representations affect binding affinity prediction.
+  description: A systematic analysis of sequence-based deep learning models for binding affinity prediction,
+    probing the impact of protein and ligand representations through architectural comparisons and input
+    perturbations.
+  citation: Gorantla2024
+  data_types:
+  - Protein sequences
+  - Ligand representations
+  tasks:
+  - Binding affinity prediction
+  methods:
+  - Deep learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: parameter-efficient-fine-tuning-of-llama-for-the-clinical-domain
+  title: Parameter-efficient fine-tuning of LLaMA for the clinical domain
+  url: https://github.com/aryopg/clinical_peft
+  link_label: Code
+  year: 2024
+  theme: clinical
+  secondary_themes: []
+  summary: Adapt LLaMA to clinical prediction tasks with specialised adapter layers.
+  description: A two-stage PEFT framework for clinical NLP that separates domain adaptation and task-specific
+    fine-tuning via specialized adapter layers. It improves performance across clinical prediction tasks,
+    demonstrating efficient adaptation of pretrained language models with reduced computational cost.
+  citation: gema2024parameterefficientfinetuningllamaclinical
+  data_types:
+  - Clinical text
+  tasks:
+  - Fine-tuning
+  methods:
+  - Language models
+  - Parameter-efficient fine-tuning
+  concerns: []
+  resource_types:
+  - Research code
+- id: pdbench
+  title: PDBench
+  url: https://github.com/wells-wood-research/PDBench
+  link_label: Code
+  year: 2023
+  theme: molecules
+  secondary_themes: []
+  summary: Evaluate protein sequence design algorithms against a diverse set of structures.
+  description: PDBench is a dataset and software package for evaluating fixed-backbone sequence design
+    algorithms. The structures included in PDBench have been chosen to account for the diversity and quality
+    of observed protein structures, giving a more holistic view of performance.
+  citation: castorina_2023_pdbench
+  data_types:
+  - Protein structures
+  - Protein sequences
+  tasks:
+  - Benchmarking
+  methods:
+  - Protein design
+  concerns: []
+  resource_types:
+  - Software package
+  - Dataset
+  - Benchmark
+- id: integration-of-datasets-for-individual-prediction-of-dna-methylation-based-biomarkers
+  title: Integration of datasets for individual prediction of DNA methylation-based biomarkers
+  url: https://github.com/marioni-group/DNAm_Projections_2023
+  link_label: Code
+  year: 2023
+  theme: omics
+  secondary_themes: []
+  summary: Compare methods for applying methylation-based biomarkers across cohorts.
+  description: A comparative analysis of DNA methylation normalisation strategies for projecting epigenetic
+    scores across cohorts, evaluating their impact on BMI EpiScore and epigenetic age estimates. It identifies
+    methods that minimise technical variation and ensure consistent individual-level predictions without
+    requiring joint normalisation.
+  citation: Merzbacher2023
+  data_types:
+  - DNA methylation
+  tasks:
+  - Data integration
+  methods:
+  - Statistical modelling
+  concerns: []
+  resource_types:
+  - Research code
+- id: knowledge-graph-embeddings-in-the-biomedical-domain
+  title: Knowledge graph embeddings in the biomedical domain
+  url: https://github.com/aryopg/biokge
+  link_label: Code
+  year: 2023
+  theme: foundations
+  secondary_themes:
+  - molecules
+  summary: Evaluate biomedical knowledge graph embeddings and downstream drug interaction tasks.
+  description: An evaluation pipeline for applying and benchmarking state-of-the-art knowledge graph embedding
+    models on the BioKG dataset, achieving substantial gains in link prediction performance. It also integrates
+    rule-based interpretability and validates embeddings on downstream polypharmacy tasks, demonstrating
+    practical utility.
+  citation: gema2023knowledgegraphembeddingsbiomedical
+  data_types:
+  - Knowledge graphs
+  tasks:
+  - Link prediction
+  methods:
+  - Graph embeddings
+  concerns:
+  - Interpretability
+  resource_types:
+  - Research code
+- id: vaxformer
+  title: Vaxformer
+  url: https://github.com/aryopg/vaxformer
+  link_label: Code
+  year: 2023
+  theme: molecules
+  secondary_themes: []
+  summary: Generate candidate SARS-CoV-2 spike sequences with controlled antigenicity.
+  description: a conditional protein language model for generating SARS-CoV-2 spike sequences with controllable
+    antigenicity, evaluated via stability, immunogenicity, and structural fidelity metrics. It outperforms
+    CVAE-based approaches, providing a practical framework for computational vaccine design.
+  citation: gema2023vaxformerantigenicitycontrolledtransformervaccine
+  data_types:
+  - Protein sequences
+  tasks:
+  - Vaccine design
+  methods:
+  - Language models
+  concerns: []
+  resource_types:
+  - Research code
+- id: medfair
+  title: MEDFAIR
+  url: https://github.com/ys-zong/MEDFAIR
+  link_label: Code
+  year: 2023
+  theme: responsible
+  secondary_themes:
+  - imaging
+  summary: Benchmark fairness and bias mitigation methods in medical imaging.
+  description: a comprehensive benchmarking framework for evaluating fairness in medical imaging models,
+    standardizing comparisons across algorithms, datasets, and selection criteria. It highlights the critical
+    impact of model selection on fairness and provides a reproducible pipeline for assessing bias mitigation
+    methods.
+  citation: zong2023medfairbenchmarkingfairnessmedical
+  data_types:
+  - Medical images
+  tasks:
+  - Benchmarking
+  methods:
+  - Deep learning
+  concerns:
+  - Fairness
+  resource_types:
+  - Research code
+  - Benchmark
+- id: dart
+  title: DART
+  url: https://github.com/justinengelmann/DART_retinal_fractal_dimension
+  link_label: Code
+  year: 2022
+  theme: imaging
+  secondary_themes: []
+  summary: Estimate retinal fractal dimension efficiently from images of varying quality.
+  description: a deep learning framework that approximates complex retinal trait extraction pipelines
+    (e.g., fractal dimension) in a single, fast and robust step by training on synthetically degraded
+    images. It enables high-throughput, quality-tolerant inference while closely matching traditional
+    pipeline outputs.
+  citation: 10.1007/978-3-031-16525-2_9
+  data_types:
+  - Retinal images
+  tasks:
+  - Biomarker extraction
+  methods:
+  - Deep learning
+  concerns: []
+  resource_types:
+  - Research code
+- id: deep-attention-super-resolution-of-brain-magnetic-resonance-images
+  title: Deep attention super-resolution of brain magnetic resonance images
+  url: https://github.com/bryanlimy/clinical-super-mri
+  link_label: Code
+  year: 2022
+  theme: imaging
+  secondary_themes: []
+  summary: Improve the resolution of clinical brain MRI scans for downstream analysis.
+  description: A critic-guided super-resolution framework for enhancing low-quality clinical MRI scans,
+    integrating self-attention and feature-importance for improved interpretability. It produces high-fidelity
+    reconstructions that boost downstream segmentation accuracy, supporting scalable use in research and
+    clinical pipelines.
+  citation: 10.3389/fncom.2022.887633
+  data_types:
+  - MRI
+  tasks:
+  - Super-resolution
+  methods:
+  - Deep learning
+  concerns:
+  - Interpretability
+  resource_types:
+  - Research code
+- id: immune-aware-sars-cov-2-spike-proteins-for-universal-vaccine-design
+  title: Immune-aware SARS-CoV-2 Spike Proteins for Universal Vaccine Design
+  url: https://github.com/hcgasser/SpikeVAE
+  link_label: Code
+  year: 2022
+  theme: molecules
+  secondary_themes: []
+  summary: Generate candidate spike proteins with tunable immune visibility.
+  description: A VAE-based generative framework for designing SARS-CoV-2 spike proteins with tunable immune
+    visibility, enabling exploration of vaccine-escape variants. It outperforms simpler generative baselines
+    by producing stable sequences that smoothly interpolate across natural sequence space.
+  citation: pmlr-v184-phillips22a
+  data_types:
+  - Protein sequences
+  tasks:
+  - Vaccine design
+  methods:
+  - Generative AI
+  concerns: []
+  resource_types:
+  - Research code
+- id: detecting-multiple-retinal-diseases-in-ultra-widefield-fundus-imaging
+  title: Detecting multiple retinal diseases in ultra-widefield fundus imaging
+  url: https://github.com/justinengelmann/UWF_multiple_disease_detection
+  link_label: Code
+  year: 2022
+  theme: imaging
+  secondary_themes: []
+  summary: Detect multiple retinal diseases and identify informative image regions.
+  description: A deep learning pipeline for multi-disease detection in ultra-widefield retinal images
+    under realistic clinical conditions, paired with global explainability to localize informative regions.
+    It shows that a small posterior pole region captures most predictive signal, enabling efficient and
+    interpretable diagnosis.
+  citation: Engelmann2022
+  data_types:
+  - Retinal images
+  tasks:
+  - Classification
+  methods:
+  - Deep learning
+  concerns:
+  - Interpretability
+  resource_types:
+  - Research code
+- id: cophe
+  title: CoPHE
+  url: https://github.com/modr00cka/CoPHE
+  link_label: Code
+  year: 2021
+  theme: clinical
+  secondary_themes: []
+  summary: Evaluate predictions within hierarchical clinical coding systems.
+  description: Count-preserving hierarchical evaluation and set-based hierarchical evaluation methods
+    for hierarchical label spaces. Currently implemented only for the label space of the ICD-9 ontology
+    of diseases and procedures.
+  citation: falis2021
+  data_types:
+  - Clinical text
+  tasks:
+  - Evaluation
+  methods:
+  - Hierarchical classification
+  concerns: []
+  resource_types:
+  - Research code
+- id: de-stress
+  title: DE-STRESS
+  url: https://github.com/wells-wood-research/stam-m-wood-c-de-stress-2021
+  link_label: Code
+  year: 2021
+  theme: molecules
+  secondary_themes: []
+  summary: Evaluate designed proteins using structural metrics and contextual comparisons.
+  description: a web-based evaluation platform for designed proteins that computes standardized structural
+    metrics and contextual analyses to support data-driven design selection. It streamlines early-stage
+    screening to reduce experimental attrition in protein engineering workflows.
+  citation: 10.1093/protein/gzab029
+  data_types:
+  - Protein structures
+  tasks:
+  - Design evaluation
+  methods:
+  - Structural analysis
+  concerns: []
+  resource_types:
+  - Research code
+- id: immunobert
+  title: ImmunoBERT
+  url: https://github.com/hcgasser/ImmunoBERT
+  link_label: Code
+  year: 2021
+  theme: molecules
+  secondary_themes: []
+  summary: Predict and interpret peptide presentation by MHC class I molecules.
+  description: a BERT-based model for predicting peptide presentation on MHC Class I molecules, integrating
+    sequence context and multiple MHC alleles. The framework uses SHAP, LIME, and 3D visualizations to
+    interpret predictions, highlighting critical peptide termini and key MHC pockets consistent with biological
+    insights.
+  citation: gasser2021interpretingbertarchitecturepredictions
+  data_types:
+  - Protein sequences
+  tasks:
+  - Peptide presentation prediction
+  methods:
+  - Language models
+  concerns:
+  - Interpretability
+  resource_types:
+  - Research code

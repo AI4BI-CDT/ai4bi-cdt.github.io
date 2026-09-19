@@ -1,0 +1,51 @@
+<div id="research-catalogue" class="research-catalogue">
+  <nav class="research-themes" aria-label="Research themes">
+    {% for theme in site.data.research_themes %}
+    {% assign primary = site.data.research | where: "theme", theme.id %}
+    <a href="#theme-{{ theme.id }}">{{ theme.title | escape }} <span aria-label="{{ primary.size }} primary outputs">{{ primary.size }}</span></a>
+    {% endfor %}
+  </nav>
+  <form id="research-filters" class="research-filters" role="search" aria-label="Search research outputs" hidden>
+    <label class="research-search">Search the collection
+      <input id="research-query" type="search" placeholder="Try MRI, protein design, fairness or an author…" aria-controls="research-results" autocomplete="off">
+    </label>
+    <div class="research-filter-row">
+      <label>Theme<select id="research-theme"><option value="">All themes</option>{% for theme in site.data.research_themes %}<option value="{{ theme.id }}">{{ theme.title | escape }}</option>{% endfor %}</select></label>
+      <label>Data type<select id="research-data"><option value="">All data types</option></select></label>
+      <label>Resource type<select id="research-type"><option value="">All resource types</option></select></label>
+    </div>
+    <div class="research-filter-footer"><button type="reset">Clear search and filters</button><p id="research-count" role="status" aria-live="polite" aria-atomic="true"></p></div>
+    <p class="research-hint">Theme filters include related outputs from other sections. Search also covers methods, tasks, tags and cited authors.</p>
+  </form>
+  <div id="research-results">
+    {% assign ordered_resources = site.data.research | sort: "year" | reverse %}
+    {% for theme in site.data.research_themes %}
+    <section class="research-section" aria-labelledby="theme-{{ theme.id }}" data-theme="{{ theme.id }}">
+      <h3 id="theme-{{ theme.id }}">{{ theme.title | escape }}</h3>
+      <p class="research-section-description">{{ theme.description | escape }}</p>
+      <div class="research-list">
+      {% for resource in ordered_resources %}{% if resource.theme == theme.id %}
+        <article id="{{ resource.id }}" class="research-card" data-resource-id="{{ resource.id }}">
+          <div class="research-card-heading"><h4><a href="{{ resource.url | escape }}">{{ resource.title | escape }}</a></h4><span class="research-year">{{ resource.year }}</span></div>
+          <p class="research-summary">{{ resource.summary | escape }}</p>
+          <ul class="research-tags" aria-label="Research tags">
+            {% for tag in resource.data_types %}<li>{{ tag | escape }}</li>{% endfor %}
+            {% for tag in resource.tasks limit:1 %}<li>{{ tag | escape }}</li>{% endfor %}
+            {% for tag in resource.concerns limit:1 %}<li>{{ tag | escape }}</li>{% endfor %}
+          </ul>
+          <div class="research-links"><a href="{{ resource.url | escape }}">{{ resource.link_label | escape }}<span class="visually-hidden"> for {{ resource.title | escape }}</span> <span aria-hidden="true">↗</span></a><span class="research-citation">{% cite resource.citation %}</span></div>
+          <details><summary>About this research</summary><p>{{ resource.description | escape }}</p><dl>
+            <dt>Methods</dt><dd>{{ resource.methods | join: ", " | escape }}</dd>
+            <dt>Resource types</dt><dd>{{ resource.resource_types | join: ", " | escape }}</dd>
+            {% if resource.secondary_themes.size > 0 %}<dt>Related themes</dt><dd>{% for related in resource.secondary_themes %}{% assign related_theme = site.data.research_themes | where: "id", related | first %}{{ related_theme.title | escape }}{% unless forloop.last %}; {% endunless %}{% endfor %}</dd>{% endif %}
+          </dl></details>
+        </article>
+      {% endif %}{% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+    <p id="research-empty" hidden>No outputs match this combination. Try a broader search or clear the filters.</p>
+  </div>
+</div>
+<script id="research-data-json" type="application/json">{{ site.data.research | jsonify | replace: '<', '\u003c' }}</script>
+<script src="{{ '/assets/js/research-catalogue.js' | relative_url }}" defer></script>

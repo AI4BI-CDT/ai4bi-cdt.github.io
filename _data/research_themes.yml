@@ -1,0 +1,21 @@
+- id: imaging
+  title: Medical imaging & image analysis
+  description: Understand biomedical images, from cells to organs.
+- id: molecules
+  title: Molecular modelling, design & drug discovery
+  description: Model molecules and develop tools for therapeutic and biological design.
+- id: omics
+  title: Genomics, omics & molecular biomarkers
+  description: Connect molecular measurements to biological and clinical questions.
+- id: clinical
+  title: Clinical language & health records
+  description: Extract, generate and evaluate information in clinical text.
+- id: mental-health
+  title: Mental health & digital monitoring
+  description: Explore mental health through wearable signals and longitudinal data.
+- id: responsible
+  title: Reliable, fair & safe AI
+  description: Investigate uncertainty, fairness, privacy and the reliability of AI.
+- id: foundations
+  title: Foundations & computational methods
+  description: Explore reusable AI methods, representations and scientific computing.
